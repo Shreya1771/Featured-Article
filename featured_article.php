@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Featured Article Count</title>
+    <title>User Rank</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "index.css" />
+     <style>
+      .jumbotron{    
+       border-radius: 0px;
+       text-align: center;
+        }
+     </style>
   </head>
 
   <body>
     <div class="jumbotron" style="border-radius: 0px; text-align: center;">
     
-      <h4 class="display-4">Shows number of featured articles where the user is among the top 10 editors</h4><hr/>
+      <h4 class="display-4">English Wikipedia UserRank </h4><hr/>
      
       <form class="" id="myForm" action="#" method="post">
         <div class="input-group col-sm-6" style="margin:auto;">
